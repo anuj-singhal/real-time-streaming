@@ -1,3 +1,10 @@
+########################################################################
+# Owner: Anuj
+# Frequency: realtime sender
+# Job Description: Event hub sender class to create
+# producer and send messages in batch
+########################################################################
+
 from src.main.base import EvenHub
 from azure.eventhub import EventHubProducerClient, EventData, EventDataBatch
 

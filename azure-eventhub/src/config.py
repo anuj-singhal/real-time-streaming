@@ -1,3 +1,8 @@
+########################################################################
+# Owner: Anuj Singhal
+# Description: configuration file setting variables from .ini file
+########################################################################
+
 from configparser import ConfigParser
 
 #Read config.ini file
